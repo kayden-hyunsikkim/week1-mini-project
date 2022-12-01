@@ -1,0 +1,28 @@
+header {
+   background-color: #266150;
+   color: white;
+   border-bottom: 10px solid #ddaf94;
+   text-align: right;
+}
+
+header p {
+    display: inline-block;
+    margin-right:20px;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: black;
+}
+
+body { 
+    background-color: #fdf8f5;
+}
