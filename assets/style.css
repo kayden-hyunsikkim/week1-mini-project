@@ -8,6 +8,18 @@ header {
 header p {
     display: inline-block;
     margin-right:20px;
+}
+
+footer {
+    color: white;
+    background-color:  #266150;
+    text-align: center;
+    padding: 3px;
+    border-bottom: 10px solid #4f4846;
+   
+}
+
+p, figcaption {
     font-size: 20px;
 }
 
@@ -26,3 +38,72 @@ a:active {
 body { 
     background-color: #fdf8f5;
 }
+
+h1, figcaption, h2{
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #4f4846;
+    padding: 0px 0 21px 0;
+    margin:0;
+}
+h2{
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+}
+
+label, input {
+    display: block;
+}
+
+input[type="text"] {
+    width: 300px;
+
+}
+
+input[type="email"] {
+    width: 300px;
+}
+
+
+input[type="submit"] {
+    margin-bottom: 10px; 
+    width: 110px;
+    height: 35px;
+    margin:0 472px 0 207px;
+    background-color: #4f4846;
+    color: #fdf8f5;
+}
+
+form {
+    background-color:#e8cebf ;
+}
+
+div {
+    border: 5px solid #ddaf94;
+    margin: 0 275px 0 275px;
+    border-radius: 25px;
+}
+
+.relative-img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.relative-input {
+    position: relative;
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+form {
+    padding-top: 20px;
+    border-top: 3px solid #ddaf94;
+    padding-bottom: 30px;
+}
+
+
