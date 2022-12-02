@@ -105,3 +105,11 @@ form {
 }
 
 
+#submit {
+    margin-left: 190px;
+}
+
+#email {
+    position: absolute;
+    left:52px;
+}
